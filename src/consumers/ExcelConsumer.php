@@ -1,11 +1,11 @@
 <?php
 namespace lucasguo\import\consumers;
 
-use yii\base\Object;
+use yii\base\BaseObject;
 use lucasguo\import\exceptions\InvalidFileException;
 use lucasguo\import\components\Importer;
 
-class ExcelConsumer extends Object implements ConsumerInterface
+class ExcelConsumer extends BaseObject implements ConsumerInterface
 {
 	/**
 	 * {@inheritDoc}
